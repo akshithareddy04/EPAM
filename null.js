@@ -1,3 +1,3 @@
 let sampleView = "HEllo";
 
-console.log(sampleView)
+document.write(sampleView)

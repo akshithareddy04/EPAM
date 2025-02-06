@@ -6,20 +6,20 @@ let person = {
 };
 
 // Accessing properties
-console.log(person.name); // Output: John
+document.write(person.name); // Output: John
 
 // Modifying properties
 person.age = 26;
-console.log(person.age); // Output: 26
+document.write(person.age); // Output: 26
 
 // Adding a new property
 person.country = "USA";
-console.log(person); 
+document.write(person); 
 
 // Looping through an object
 for (let key in person) {
-    console.log(`${key}: ${person[key]}`);
+    document.write(`${key}: ${person[key]}`);
 }
 
 // Checking if a property exists
-console.log("city" in person); // Output: true
+document.write("city" in person); // Output: true

@@ -1,9 +1,9 @@
 var a = "This is String Data Type";
 
-console.log(a);
+document.write(a);
 
-console.log(10,20,30);
+document.write(10,20,30);
 
 test = 10>20;
 
-console.log(test);
+document.write(test);

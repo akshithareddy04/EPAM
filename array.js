@@ -2,18 +2,18 @@
 let fruits = ["Apple", "Banana", "Cherry"];
 
 // Accessing elements
-console.log(fruits[0]); // Output: Apple
+document.write(fruits[0]); // Output: Apple
 
 // Adding an element to the end
 fruits.push("Mango");
-console.log(fruits); // Output: ["Apple", "Banana", "Cherry", "Mango"]
+document.write(fruits); // Output: ["Apple", "Banana", "Cherry", "Mango"]
 
 // Removing the last element
 fruits.pop();
-console.log(fruits); // Output: ["Apple", "Banana", "Cherry"]
+document.write(fruits); // Output: ["Apple", "Banana", "Cherry"]
 
 // Iterating through an array
-fruits.forEach(fruit => console.log(fruit));
+fruits.forEach(fruit => document.write(fruit));
 
 // Finding an element
-console.log(fruits.includes("Banana")); // Output: true
+document.write(fruits.includes("Banana")); // Output: true
